@@ -46,13 +46,13 @@ hisat2/2.1.0-intel-19.0.4                      ncbi-rmblastn/2.2.28-gcc-4.8.5
 在开始新作业之前，先卸载所有已加载的模块是一个好习惯。
 
 ```
-$ mdoule purge
+$ module purge
 ```
 
 可以一次加载或卸载多个模块。
 
 ```
-$ mdoule load gcc openmpi
+$ module load gcc openmpi
 $ module unload gcc openmpi
 ```
 
